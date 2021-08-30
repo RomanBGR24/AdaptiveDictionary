@@ -65,8 +65,23 @@ header{
     
 }
 
-#squares li{
-    
+#squares ul{
+    list-style: none;
+    height: 50px;
+}
+#squares ul li{
+    float:left;
+    width: 20px;
+    padding: 5px;
+    border-style: ridge;
+    margin-left: 2px;
+}
+
+.green_square{
+    background-color:green;
+}
+.red_square{
+    background-color:red;
 }
 
 #question{
@@ -83,6 +98,18 @@ header{
     height: 50px;
     margin: 10px;
     margin-top: 30px;
+}
+
+#preview_table table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid black;
+}
+
+#preview_table table > th,td{
+    padding: 20px;
+    border:1px solid green;
 }
 
 footer{

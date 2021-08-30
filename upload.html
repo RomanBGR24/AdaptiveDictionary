@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Adaptive dictionary</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <link rel="stylesheet" href="./css/main.css">
+        <script src="./scripts/upload.js" defer></script>
+    </head>
+    <body>
+        <!--Form to upload words from csv file-->
+        <div id="main">
+            <h1>Загрузка словаря...</h1>
+            <p></p>
+            <div id="form_upload">
+                <form>
+                    <fieldset>
+                        <legend>Выберите файл для загрузки словаря</legend>
+                        <label for="csvFileUpload">File upload label:</label>
+                        <input type="file" id="csvFileUpload" accept=".csv">
+                        
+                    </fieldset>           
+                </form>
+            </div>
+            
+            <div id="preview_table"></div>
+        </div>
+
+    </body>
+</html>
